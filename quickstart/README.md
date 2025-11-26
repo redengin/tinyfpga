@@ -20,5 +20,7 @@ Demonstration of APIO tools
 | apio sim      | Simulate a testbench with graphic results.
 | apio test     | Test all or a single verilog testbench module. |
 Test Commands require *testbench* support
-* [...]_tb.v       - testbench I/O mapping
-* [...]_tb.gtkw    - test implementation
+* [uut]_tb.v       - testbench I/O mapping
+* [uut]_tb.gtkw    - test implementation
+
+Where [uut] has a [uut].v (the implementation of the *unit-under-test*)
