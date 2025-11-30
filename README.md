@@ -70,3 +70,12 @@ Verification commands:
 ```
 
 
+[TinyFPGA-BX/](submodules/TinyFPGA-BX/)
+--------------------------------------------------------------------------------
+NOTE: ```git submodule update --init```
+
+Provides TinyFPGA-BX specific board schematic, templates, design-for-test (DFT),
+and an alternate bootloader.
+
+### [picosoc](submodules/TinyFPGA-BX/examples/picosoc)
+An example of a RISC-V soft-core.

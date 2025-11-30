@@ -1,0 +1,3 @@
+[submodule "submodules/TinyFPGA-BX"]
+	path = submodules/TinyFPGA-BX
+	url = https://github.com/tinyfpga/TinyFPGA-BX
