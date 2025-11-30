@@ -79,3 +79,10 @@ and an alternate bootloader.
 
 ### [picosoc](submodules/TinyFPGA-BX/examples/picosoc)
 An example of a RISC-V soft-core.
+
+* Needs [OSS-CAD-SUITE](https://github.com/YosysHQ/oss-cad-suite-build#installation)
+  * if you use the source release you'll need to run `builder.py` which takes quite a while...
+  * binary releases - https://github.com/YosysHQ/oss-cad-suite-build/releases
+
+NOTE: it appears additional tools are required, but I stopped here
+  * [arachne-pnr](https://github.com/YosysHQ/arachne-pnr)
